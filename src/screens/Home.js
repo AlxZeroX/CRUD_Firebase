@@ -12,7 +12,7 @@ export default function Home() {
 
     React.useLayoutEffect(() => {
         navigation.setOptions({
-            headerRight: () => <RN.Button title='Add' onPress={() => navigation.navigate('Add')} />
+            headerRight: () => <RN.Button title='Agregar' onPress={() => navigation.navigate('Add')} />
         })
     },[navigation])
 

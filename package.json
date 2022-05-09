@@ -7,6 +7,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "commit": "git add . && gitmoji -c",
     "eject": "expo eject"
   },
   "dependencies": {

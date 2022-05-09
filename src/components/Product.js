@@ -36,14 +36,14 @@ export default function Product({
                 {isSold ? (
                     <RN.TouchableOpacity 
                     style={[styles.button, {backgroundColor: 'gray'}]}>
-                    <RN.Text style={styles.buttonText}>Sold</RN.Text>
+                    <RN.Text style={styles.buttonText}>AGOTADO</RN.Text>
                 </RN.TouchableOpacity>
                 )
                 : (
                     <RN.TouchableOpacity 
                     onPress={onEdit}
                     style={styles.button}>
-                    <RN.Text style={styles.buttonText}>Purchase</RN.Text>
+                    <RN.Text style={styles.buttonText}>COMPRAR</RN.Text>
                 </RN.TouchableOpacity>
                 )}
                 
