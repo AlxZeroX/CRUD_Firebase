@@ -53,7 +53,7 @@ export default function Add() {
                     style={styles.inputContainer} 
                    placeholder='$ Precio' 
                 />
-            <RN.Button title='Publish' onPress={onSend}/>
+            <RN.Button title='Publicar' onPress={onSend}/>
         </RN.View>
     )
 }

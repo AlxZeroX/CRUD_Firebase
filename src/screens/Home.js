@@ -12,7 +12,7 @@ export default function Home() {
 
     React.useLayoutEffect(() => {
         navigation.setOptions({
-            headerRight: () => <RN.Button title='Agregar' onPress={() => navigation.navigate('Add')} />
+            headerRight: () => <RN.Button title='AGREGAR' onPress={() => navigation.navigate('AGREGAR')} />
         })
     },[navigation])
 
@@ -39,7 +39,7 @@ export default function Home() {
     return(
         <RN.View style={styles.container}>
             <RN.ScrollView contentContainerStyle={{paddingBottom: 100}}>
-            <RN.Text style={styles.title}>Products</RN.Text>
+            <RN.Text style={styles.title}>Productos</RN.Text>
                 {products.map(product => <Product key={product.id} {...product} />)}
             </RN.ScrollView>
         </RN.View>
@@ -49,7 +49,7 @@ export default function Home() {
 const styles = RN.StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#F5F3F9',
+        backgroundColor: '#dedede',
     },
     title: {
         fontSize: 32,
